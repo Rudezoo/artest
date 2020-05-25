@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MainActivity">
+
+    <fragment
+        android:id="@+id/ux_fragment"
+        android:name="com.google.ar.sceneform.ux.ArFragment"
+        android:layout_width="424dp"
+        android:layout_height="match_parent" />
+
+    <TextView
+        android:id="@+id/txtResult"
+        android:layout_width="384dp"
+        android:layout_height="40dp"
+        android:layout_gravity="bottom"
+        />
+
+
+    <TextView
+        android:id="@+id/degreetxt"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center" />
+
+    <TextView
+        android:id="@+id/headingtxt"
+        android:layout_width="120dp"
+        android:layout_height="29dp"
+        android:gravity="left" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Button" />
+
+
+</FrameLayout>
